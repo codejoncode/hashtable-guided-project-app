@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import HashFunction from './Components/HashFunction';
+import HashArray from './Components/HashArray';
+import CollisionHandle from './Components/CollisionHandle';
 
 class App extends Component {
+  state = {
+
+  }
+
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h1>Hash Function</h1>
+        <HashFunction />
+        <h1>Hash Table</h1>
+        <HashArray />
+        <br/>
+        <br/>
+        <br/>
+        <h1>Handle Collisions</h1>
+        <CollisionHandle />
       </div>
     );
   }
