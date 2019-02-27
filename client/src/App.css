@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+
+.bigBox {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+
+.expandBox {
+  height: 100px;
+  width: 70px;
+  border: 1px solid black;
+  border-spacing: 2px;
+}
+
+.red {
+  background-color: red; 
+}
