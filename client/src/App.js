@@ -4,6 +4,7 @@ import HashFunction from './Components/HashFunction';
 import HashArray from './Components/HashArray';
 import CollisionHandle from './Components/CollisionHandle';
 
+
 class App extends Component {
   state = {
 
