@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hashtable-guided-project-app/precache-manifest.06669eb5710d7fa8cc5ebc5789063b2c.js"
+  "/hashtable-guided-project-app/precache-manifest.e6794a0c385d0381d31608f578bd3fcc.js"
 );
 
 workbox.clientsClaim();
