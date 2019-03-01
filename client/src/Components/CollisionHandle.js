@@ -120,31 +120,31 @@ class CollisionHandle extends Component {
     switch (index) {
       case 0:
         if (index0.includes(key) === false) {
-          index0.push(key);
+          index0.unshift(key);
           this.setState({ index0, position: index0.length });
         }
         break;
       case 1:
         if (index1.includes(key) === false) {
-          index1.push(key);
+          index1.unshift(key);
           this.setState({ index1, position: index1.length });
         }
         break;
       case 2:
         if (index2.includes(key) === false) {
-          index2.push(key);
+          index2.unshift(key);
           this.setState({ index2, position: index2.length });
         }
         break;
       case 3:
         if (index3.includes(key) === false) {
-          index3.push(key);
+          index3.unshift(key);
           this.setState({ index3, position: index3.length });
         }
         break;
       case 4:
         if (index4.includes(key) === false) {
-          index4.push(key);
+          index4.unshift(key);
           this.setState({ index4, position: index4.length });
         }
         break;
